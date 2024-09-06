@@ -42,7 +42,7 @@ alert('failed to change picture');
         <li>
           <img src="img/<?= $img["image"]; ?>" width="60" height="60">
           <div class="text">
-            <p>Travis Scott</p>
+            <p>Future</p>
           </div>
         </li>
       </ul>
