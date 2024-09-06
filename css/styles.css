@@ -38,3 +38,40 @@ body {
   margin: 10px auto;
   width: 50%;
 }
+.profile-picture {
+  margin: 100px 0 0 0;
+  height: 120px;
+  /* background-color: #eaeaea; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.container .profile-picture li {
+  display: flex;
+  /* flex-direction: row; */
+}
+.profile-picture ul {
+  padding: 10px 10px;
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+.profile-picture img {
+  border-radius: 50%; /* Optional: makes the image round */
+  margin-right: 10px; /* Space between image and text */
+  display: block; /* Prevents extra space below the image */
+}
+.text {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 60px;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.profile-picture form {
+  /* background-color: rebeccapurple; */
+  /* margin: 20px auto; */
+  margin-top: 20px;
+  margin-left: 65px;
+}

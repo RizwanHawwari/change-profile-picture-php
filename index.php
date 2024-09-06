@@ -16,9 +16,17 @@
     </div>
     <div class="profile-picture">
       <ul>
-        <li><img src="img/"></li>
-        <li>Username</li>
+        <li>
+          <img src="img/travis.jpg" width="60" height="60">
+          <div class="text">
+            <p>Travis Scott</p>
+          </div>
+        </li>
       </ul>
+      <form action="" method="post">
+        <label for="image">Insert File: </label>
+        <input type="file" name="image" id="image">
+      </form>
     </div>
   </div>
 </body>
