@@ -36,9 +36,7 @@ Feel free to report issues, fork the repository, and submit pull requests. Contr
 
 For any questions or feedback, please reach out to [rzwnhawari@gmail.com](mailto:rzwnhawari@gmail.com).
 
-```sql
-Feel free to replace `username` with your GitHub username, update the email address, and adjust any other details specific to your project.
-```
+Thank You!
 
 ---
 
