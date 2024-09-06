@@ -36,8 +36,6 @@ Feel free to report issues, fork the repository, and submit pull requests. Contr
 
 For any questions or feedback, please reach out to [rzwnhawari@gmail.com](mailto:rzwnhawari@gmail.com).
 
+----
+
 Thank You!
-
----
-
-Happy coding!
