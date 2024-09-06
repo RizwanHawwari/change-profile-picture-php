@@ -39,7 +39,7 @@ body {
   width: 50%;
 }
 .profile-picture {
-  margin: 100px 0 0 0;
+  margin: 130px 0 0 0;
   height: 120px;
   /* background-color: #eaeaea; */
   display: flex;
@@ -74,4 +74,17 @@ body {
   /* margin: 20px auto; */
   margin-top: 20px;
   margin-left: 65px;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  margin-top: 25px;
+  margin-right: 80px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: lightskyblue;
+  color: #fff;
 }
