@@ -22,14 +22,14 @@ function query($query) {
 
 function edit() {
   global $conn;
+  $id = $_POST['id'];
   $image = upload();
   if ( !$image ) {
     return false;
   }
-
   $query = "UPDATE images SET
   image = '$image'
-  WHERE id = 1
+  WHERE id = $id
   ";
   $result = mysqli_query($conn, $query);
 
@@ -76,5 +76,17 @@ alert('The size of the image is too large');
   move_uploaded_file($tmpName,  'img/' . $newNameFile);
   
   return $newNameFile;
+}
+
+function editName() {
+  global $conn;
+
+  $id = $_POST["id"];
+  $name = $_POST['name'];
+  
+  $query = "UPDATE images SET name = '$name' WHERE id = '$id'";
+  $result = mysqli_query($conn, $query);
+    
+  return mysqli_affected_rows($conn);
 }
 ?>

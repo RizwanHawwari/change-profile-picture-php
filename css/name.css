@@ -73,13 +73,13 @@ body {
   /* background-color: rebeccapurple; */
   /* margin: 20px auto; */
   margin-top: 20px;
-  margin-left: 65px;
+  /* margin-left: 65px; */
 }
 .btn {
   width: 120px;
   height: 40px;
   margin-top: 25px;
-  margin-right: 80px;
+  /* margin-right: 80px; */
   border-radius: 16px;
   cursor: pointer;
   transition: 0.3s;

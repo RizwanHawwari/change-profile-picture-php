@@ -1,17 +1,17 @@
 <?php 
 
 require "functions.php";
-$image = query("SELECT * FROM images");
+$name = query("SELECT * FROM images");
 
-if ( isset( $_POST["submit"] ) ) {
-  if ( edit() > 0 ) {
+if ( isset( $_POST["changename"] ) ) {
+  if ( editName() > 0 ) {
     echo "<script>
-alert('picture changed!');
+alert('name changed!');
 window.location.href = 'index.php';
     </script>";
   } else {
     echo "<script>
-alert('failed to change picture');
+alert('failed to change name');
     </script>";
 
     return false;
@@ -26,18 +26,18 @@ alert('failed to change picture');
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Change Profile</title>
+  <link rel="stylesheet" href="css/name.css">
+  <title>Change Name</title>
 </head>
 
 <body>
   <div class="container">
     <div class="header">
-      <h1>Change Profile</h1>
+      <h1>Change Name</h1>
       <hr>
     </div>
     <div class="profile-picture">
-      <?php foreach( $image as $img ) : ?>
+      <?php foreach( $name as $img ) : ?>
       <ul>
         <li>
           <img src="img/<?= $img["image"]; ?>" width="60" height="60">
@@ -48,11 +48,11 @@ alert('failed to change picture');
       </ul>
       <form action="" method="post" enctype="multipart/form-data">
         <input type="hidden" name="id" value="<?= $img["id"]; ?>">
-        <label for="image">Insert File: </label>
-        <input type="file" name="image" id="image" required> <br>
-        <button type="submit" name="submit" class="btn">Change</button>
+        <label for="name">Change Name: </label>
+        <input type="text" name="name" id="name" required> <br>
+        <button type="submit" name="changename" class="btn">Change</button>
       </form>
-      <a href="name.php?id=<?= $img["id"]; ?>" class="change-name">Want to Change Name? Here</a>
+      <a href="index.php" class="change-name">Want to Change Profile? Here</a>
       <?php endforeach; ?>
     </div>
   </div>
