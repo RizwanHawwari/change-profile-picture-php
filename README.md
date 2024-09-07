@@ -1,6 +1,6 @@
 # Change Profile Picture PHP
 
-Welcome to the Change Profile Picture PHP repository! This project provides a PHP-based solution for changing profile pictures, offering a straightforward and effective way to manage and update profile images.
+Hi! Welcome to the Change Profile Picture PHP repository! This project provides a PHP-based solution for changing profile pictures, offering a straightforward and effective way to manage and update profile images.
 
 ## Features
 
@@ -36,8 +36,6 @@ Feel free to report issues, fork the repository, and submit pull requests. Contr
 
 For any questions or feedback, please reach out to [rzwnhawari@gmail.com](mailto:rzwnhawari@gmail.com).
 
-Thank You!
+----
 
----
-
-Happy coding!
+Thank You For Visit!
