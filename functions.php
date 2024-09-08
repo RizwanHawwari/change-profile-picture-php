@@ -88,5 +88,5 @@ function editName() {
   $result = mysqli_query($conn, $query);
     
   return mysqli_affected_rows($conn);
-}
+} // return -1 or > 0
 ?>
