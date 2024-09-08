@@ -4,6 +4,7 @@ $username = "root";
 $password = "";            
 $database = "profile";
 
+// connecting to database
 $conn = mysqli_connect($servername, $username, $password, $database);
 
 if ($conn->connect_error) {
